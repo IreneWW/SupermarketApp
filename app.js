@@ -18,10 +18,11 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'RP738964$',
-    database: 'c237_supermarketdb'
+    host: '68tttt.h.filess.io',
+    port: 3307,
+    user: 'ppp_costtipeye',
+    password: 'bbb4a6dedc4ef729ff1eb9dbb44efddc979d86d9',
+    database: 'ppp_costtipeye'
   });
 
 connection.connect((err) => {
